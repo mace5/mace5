@@ -51,7 +51,7 @@ function draw() {
   fill(255, 204, 0);
   rect(500, 400, 200, 200);
 describe('white rect with black outline in mid-right of canvas');
-  
+
   let time = millis();
   rotateX(time / 1000);
   rotateZ(time / 1234);
@@ -86,4 +86,3 @@ if(mouseIsPressed) {
    rect(500, 400, 200, 200);
 
  }
-
